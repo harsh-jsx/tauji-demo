@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import BGVIDEO from "../assets/BGVIDEO.mp4";
+import LoaderAnimation from "../Components/Loader";
 
 const Home = () => {
   return (
