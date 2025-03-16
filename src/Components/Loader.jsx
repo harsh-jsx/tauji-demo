@@ -5,11 +5,11 @@ import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 
 export default function LoaderAnimation() {
-  const loaderRef = useRef < HTMLDivElement > null;
-  const housePathRef = useRef < SVGPathElement > null;
-  const nameRef = useRef < HTMLDivElement > null;
-  const yearRef = useRef < HTMLDivElement > null;
-  const containerRef = useRef < HTMLDivElement > null;
+  const loaderRef = useRef(null);
+  const housePathRef = useRef(null);
+  const nameRef = useRef(null);
+  const yearRef = useRef(null);
+  const containerRef = useRef(null);
 
   useEffect(() => {
     // Register GSAP plugins
